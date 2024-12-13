@@ -20,6 +20,9 @@ export default function page() {
 {/*       <CarruselEventos /> */}
       <Hstg />
       <Rds />
+
+
+
       <Fter />
     </div>
   );

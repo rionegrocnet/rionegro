@@ -38,6 +38,8 @@ export default function Rds() {
           height={400}
           className="max-w-full h-auto"
         />
+
+        <h2>Error API Instagram</h2>
       </div>
     </div>
   )
