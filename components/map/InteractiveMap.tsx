@@ -2,12 +2,14 @@
 
 import { MapPoint } from './MapPoint';
 import { BaseMap } from './BaseMap';
+import { InfoBanner } from './InfoBanner';
 import { christmasScenarios } from '@/lib/data/scenarios';
 import '@/styles/map.css';
 
 export function InteractiveMap() {
   return (
     <div className="w-full h-full" style={{ zIndex: 100, position: 'relative' }}>
+       <InfoBanner />
       <svg
         viewBox="0 0 3262.05 1714.95"
         className="w-full h-full"
