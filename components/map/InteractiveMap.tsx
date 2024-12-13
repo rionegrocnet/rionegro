@@ -8,7 +8,7 @@ import '@/styles/map.css';
 
 export function InteractiveMap() {
   return (
-    <div className="w-full h-full" style={{ zIndex: 100, position: 'relative' }}>
+    <div className="w-full h-full hidden md:flex" style={{ zIndex: 100, position: 'relative' }}>
        <InfoBanner />
       <svg
         viewBox="0 0 3262.05 1714.95"
