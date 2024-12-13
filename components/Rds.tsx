@@ -20,7 +20,7 @@ export default function Rds() {
             <Facebook size={24} />
           </Link>
           <Link
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/esorionegro"
             className="bg-[#004141] text-white p-3 rounded-full hover:bg-opacity-80 transition-colors duration-300"
             aria-label="Instagram"
           >
@@ -38,8 +38,6 @@ export default function Rds() {
           height={400}
           className="max-w-full h-auto"
         />
-
-        <h2>Error API Instagram</h2>
       </div>
     </div>
   )

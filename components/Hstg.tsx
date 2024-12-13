@@ -21,7 +21,11 @@ export default function Hstg() {
           junto a nosotros
         </h2>
         <p className="font-MinionPro text-[1.125rem] text-[#004141] pr-0 sm:pr-[20%] text-justify">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Comparte tu experiencia navideña en Rionegro y sé parte de nuestra celebración. <br /> <br />
+
+Escanea el QR y usa los hashtags #CiudadDelBienestar y #MiNavidadEnRionegro en Instagram, etiquetando a @esorionegro. <br /> <br />
+
+¡Queremos ver tus momentos más especiales!
         </p>
       </div>
     </div>
