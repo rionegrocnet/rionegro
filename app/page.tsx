@@ -5,6 +5,7 @@ import Rds from "@/components/Rds";
 import Fter from "@/components/Fter";
 import HztalScroll from "@/components/HztalScroll";
 import { InteractiveMap } from "@/components/map/InteractiveMap";
+import { MobileMap } from "@/components/map/MobileMap";
 
 export default function Page() {
   return (
@@ -13,7 +14,7 @@ export default function Page() {
         <HztalScroll />
         <Prrfo1 />
         <InteractiveMap />
-
+<MobileMap />
         <Hstg />
         <Rds />
         <Fter />
