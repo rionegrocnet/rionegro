@@ -1,6 +1,6 @@
 {
-  "name": "nextjs",
-  "version": "0.1.0",
+  "name": "rionegro",
+  "version": "3.0.2",
   "private": true,
   "scripts": {
     "dev": "next dev",

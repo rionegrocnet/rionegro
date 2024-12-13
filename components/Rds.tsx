@@ -13,7 +13,7 @@ export default function Rds() {
         </h2>
         <div className="flex space-x-4 justify-center sm:justify-end">
           <Link
-            href="https://www.facebook.com"
+            href="https://www.facebook.com/ESORionegro/"
             className="bg-[#004141] text-white p-3 rounded-full hover:bg-opacity-80 transition-colors duration-300"
             aria-label="Facebook"
           >
