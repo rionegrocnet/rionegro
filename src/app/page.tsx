@@ -4,9 +4,9 @@ import Hstg from "@/components/Hstg";
 import Rds from "@/components/Rds";
 import Fter from "@/components/Fter";
 import HztalScroll from "@/components/HztalScroll";
-import Mapa from "@/components/Mapa";
-import MapaMovil from "@/components/MapaMovil";
-import CarruselEventos from "@/components/carrusel/CarruselEventos";
+/* import MapaMovil from "@/components/MapaMovil"; */
+/* import CarruselEventos from "@/components/carrusel/CarruselEventos"; */
+import Map from "@/components/Map"
 
 
 export default function page() {
@@ -15,10 +15,9 @@ export default function page() {
       
       <HztalScroll />
       <Prrfo1 />
-      <Mapa />
-      <MapaMovil /> 
-      <CarruselEventos />
-
+    <Map />
+{/*       <MapaMovil />  */}
+{/*       <CarruselEventos /> */}
       <Hstg />
       <Rds />
       <Fter />
