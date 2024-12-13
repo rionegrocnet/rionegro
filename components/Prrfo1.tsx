@@ -3,7 +3,7 @@
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import Link from 'next/link';
-import Image from 'next/image'
+import Image from 'next/image';
 
 export default function Prrfo1() {
   const componentRef = useRef(null);
@@ -36,19 +36,20 @@ export default function Prrfo1() {
           ¡Te esperamos para vivir en familia la magia de la Navidad!
 
         </p>
-        <Link href="/historia">
-          <button className="bg-transparent border border-white text-white px-12 py-3 mt-32 md:mt-8 rounded-full text-lg font-bold hover:bg-white hover:text-[#74131f] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50">
-            Conoce más
-          </button>
-        </Link>
-
+        <div className="flex justify-center md:justify-start">
+          <Link href="/historia">
+            <button className="bg-transparent border border-white text-white px-12 py-3 mt-8 md:mt-8 rounded-full text-lg font-bold hover:bg-white hover:text-[#74131f] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50">
+              Conoce más
+            </button>
+          </Link>
+        </div>
       </div>
-      <div className="column flex-1 flex flex-col items-center justify-center p-8">
-      <Image
+      <div className="column flex-1 flex flex-col items-center justify-center p-8 pr-[18%]">
+        <Image
           src="/images/arbol-home.svg"
           alt="QR Code"
-          width={400}
-          height={400}
+          width={300}
+          height={300}
           className="max-w-full h-auto"
         />
       </div>
