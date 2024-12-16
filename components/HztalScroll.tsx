@@ -151,7 +151,7 @@ export default function SmoothHorizontalScrollPanorama() {
                 priority
               />
             </div>
-            <p className="text-white text-center text-lg sm:text-xl mb-8 font-JosefinSans">
+            <p className="text-white text-center text-lg sm:text-xl mb-8 font-JosefinSans px-3">
               La Ruta de la Navidad te invita a vivir la mejor experiencia de Rionegro en familia.
             </p>
             <button

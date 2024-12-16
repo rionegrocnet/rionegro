@@ -1,6 +1,6 @@
 "use client";
 
-import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialogmovil";
 import { useState } from 'react';
 
 interface MapPointProps {
@@ -49,21 +49,21 @@ export function MapPoint({ id, cx, cy, number, title, description }: MapPointPro
           />
         </g>
         <text
-          className="fill-primary-foreground text-3xl font-bold"
-          transform={`translate(${cx - (number >= 10 ? 16 : 8)} ${cy + 14})`}
+          className="fill-primary-foreground text-2xl font-bold"
+          transform={`translate(${cx - (number >= 10 ? 12 : 6)} ${cy + 10})`}
         >
           <tspan x="0" y="0">{number}</tspan>
         </text>
       </g>
 
       <Dialog open={isOpen} onOpenChange={setIsOpen}>
-        <DialogContent className="sm:max-w-[425px] rounded-none border-[#004141] border-[14px] bg-[#ffecc3] p-0">
+        <DialogContent className="sm:max-w-[325px] rounded-none border-[#004141] border-[14px] bg-[#ffecc3] p-0">
           <div className="relative">
             <div 
-              className="absolute -left-[14px] -top-[14px] w-20 h-20 rounded-full bg-[#004141] flex items-center justify-center"
+              className="absolute -left-[14px] -top-[14px] w-16 h-16 rounded-full bg-[#004141] flex items-center justify-center"
               style={{ transform: 'translate(-50%, -50%)' }}
             >
-              <span className="text-white text-4xl font-bold">{number}.</span>
+              <span className="text-white text-2xl font-bold">{number}.</span>
             </div>
             <div className=" mt-4 px-6 pb-6">
               <DialogTitle className="text-2xl font-bold mb-4  font-MinionItalic text-[#74131f]">{title}</DialogTitle>

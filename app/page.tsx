@@ -7,6 +7,7 @@ import HztalScroll from "@/components/HztalScroll";
 import { MapMobile } from "@/components/map/mobile/MapMobile";
 import { InteractiveMap } from "@/components/map/InteractiveMap";
 import HztalMap from "@/components/map/HztalMap";
+import { MapMovil3 } from "../components/map/MapMovil3";
 
 export default function Page() {
   return (
@@ -15,6 +16,7 @@ export default function Page() {
       <HztalScroll />
       <Prrfo1 />
       <InteractiveMap />
+      <MapMovil3 />
 {/*  <HztalMap /> */}
 {/*       <MapMobile /> */}
       <Hstg />
