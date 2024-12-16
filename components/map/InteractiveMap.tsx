@@ -1,15 +1,15 @@
 "use client";
 
-import { MapPoint } from './MapPoint';
-import { BaseMap } from './BaseMap';
+import { MapPoint } from '@/components/map/shared/MapPoint';
+import { BaseMap } from '@/components/map/shared/BaseMap';
 import { InfoBanner } from './InfoBanner';
 import { christmasScenarios } from '@/lib/data/scenarios';
 import '@/styles/map.css';
 
 export function InteractiveMap() {
   return (
-    <div className="w-full h-full hidden md:flex" style={{ zIndex: 100, position: 'relative' }}>
-       <InfoBanner />
+    <div className="w-full h-full relative hidden md:block">
+      <InfoBanner />
       <svg
         viewBox="0 0 3262.05 1714.95"
         className="w-full h-full"

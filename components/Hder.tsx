@@ -63,7 +63,7 @@ const Hder: React.FC = () => {
   }
 
   return (
-    <header className="absolute top-0 left-0 w-full z-50 bg-transparent">
+    <header className="absolute top-0 left-0 w-full z-0 bg-transparent">
 
       <div className="container mx-auto flex justify-between items-center">
         <div className="pl-[2%] pt-[2%]">

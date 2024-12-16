@@ -106,7 +106,7 @@ export default function SmoothHorizontalScrollPanorama() {
     };
 
     return (
-      <div className="fixed top-[10%] left-[10%] bg-white bg-opacity-90 p-4 rounded-lg shadow-lg w-5/6 z-50 md:hidden">
+      <div className="fixed top-[10%] left-[10%] bg-white bg-opacity-90 p-4 rounded-lg shadow-lg w-5/6 z-0 md:hidden">
         <div className="flex items-center justify-between cursor-pointer" onClick={toggleExpand}>
           <h2 className="text-lg font-['MinionItalic'] text-[#74131f]">
             {popupData[activePopupIndex]?.title}
@@ -151,7 +151,7 @@ export default function SmoothHorizontalScrollPanorama() {
                 priority
               />
             </div>
-            <p className="text-white text-center text-lg sm:text-xl mb-8">
+            <p className="text-white text-center text-lg sm:text-xl mb-8 font-JosefinSans">
               La Ruta de la Navidad te invita a vivir la mejor experiencia de Rionegro en familia.
             </p>
             <button
@@ -203,10 +203,10 @@ export default function SmoothHorizontalScrollPanorama() {
 
       {isScrollActive && (
         <>
-          <div className="fixed top-0 left-0 w-full pointer-events-auto z-[60]">
+          <div className="fixed top-0 left-0 w-full pointer-events-auto ">
             <Hder />
           </div>
-          <div className="fixed bottom-0 left-0 w-full h-full pointer-events-none z-40">
+          <div className="fixed bottom-0 left-0 w-full h-full pointer-events-none z-0">
             <div className={`absolute ${isDesktop ? 'bottom-[14%] left-[3%] w-1/3 h-1/3' : 'absolute bottom-[11%] left-0 w-full h-1/4'} z-0`}>
               <TrainAnimado />
             </div>

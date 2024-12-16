@@ -23,7 +23,7 @@ export default function Prrfo1() {
   }, []);
 
   return (
-    <div ref={componentRef} className="relative z-[100] flex flex-col md:flex-row bg-[#004141] min-h-screen text-[#fefaf1]">
+    <div ref={componentRef} className="relative flex flex-col md:flex-row bg-[#004141] min-h-screen text-[#fefaf1]">
       <div className="column flex-1 flex-col justify-center mt-10 p-8 md:p-16">
         <h1 className="font-josefin text-[2rem] leading-tight text-start font-JosefinSans font-normal">
           La Ruta de la Navidad trae la <br />

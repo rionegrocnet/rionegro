@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Hstg() {
   return (
-    <div className="flex flex-col sm:flex-row bg-[#fefaf1] min-h-screen relative z-[100]">
+    <div className="flex flex-col sm:flex-row bg-[#fefaf1] min-h-screen relative ">
       {/* Columna izquierda (Imagen) */}
       <div className="w-full sm:w-1/2 flex items-center justify-center pt-[20%] sm:pt-0 pr-[13%] sm:pl-0">
         <Image

@@ -8,31 +8,6 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-body {
-  font-family: 'MinionPro', sans-serif;
-}
-
-@font-face {
-  font-family: 'MinionPro';
-  src: url('/fonts/MinionPro-Regular.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'MinionItalic';
-  src: url('/fonts/Minion-Italic.otf') format('opentype');
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'JosefinSans';
-  src: url('/fonts/JosefinSans-VariableFont_wght.ttf') format('opentype');
-  font-weight: normal;
-  font-style: italic;
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -104,4 +79,29 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+body {
+  font-family: 'MinionPro', sans-serif;
+}
+
+@font-face {
+  font-family: 'MinionPro';
+  src: url('/fonts/MinionPro-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MinionItalic';
+  src: url('/fonts/Minion-Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('/fonts/JosefinSans-VariableFont_wght.ttf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
 }

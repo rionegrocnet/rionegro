@@ -4,7 +4,7 @@ import { Facebook, Instagram } from 'lucide-react'
 
 export default function Rds() {
   return (
-    <div className="flex flex-col sm:flex-row bg-[#fefaf1] min-h-screen relative z-[100]">
+    <div className="flex flex-col sm:flex-row bg-[#fefaf1] min-h-screen relative ">
       {/* Columna izquierda (Texto) */}
       <div className="w-full sm:w-1/2 flex flex-col justify-center items-center sm:items-end p-8">
         <h2 className="font-JosefinSans text-[2rem] leading-tight text-[#004141] mb-6 text-center sm:text-right">

@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from 'react';
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
+import { useState } from 'react';
 
 interface MapPointProps {
   id: string;
@@ -30,8 +30,7 @@ export function MapPoint({ id, cx, cy, number, title, description }: MapPointPro
           transform: transform,
           transformOrigin: `${cx}px ${cy}px`,
           transition: 'all 0.2s ease-out',
-          cursor: 'pointer',
-          zIndex: 10 // Añadir zIndex para asegurar que esté encima
+          cursor: 'pointer'
         }}
       >
         <g>
@@ -58,7 +57,7 @@ export function MapPoint({ id, cx, cy, number, title, description }: MapPointPro
       </g>
 
       <Dialog open={isOpen} onOpenChange={setIsOpen}>
-        <DialogContent className="sm:max-w-[425px] rounded-none border-[#004141] border-[14px] bg-[#ffecc3] p-0 z-50">
+        <DialogContent className="sm:max-w-[425px] rounded-none border-[#004141] border-[14px] bg-[#ffecc3] p-0">
           <div className="relative">
             <div 
               className="absolute -left-[14px] -top-[14px] w-24 h-24 rounded-full bg-[#004141] flex items-center justify-center"
@@ -66,9 +65,9 @@ export function MapPoint({ id, cx, cy, number, title, description }: MapPointPro
             >
               <span className="text-white text-4xl font-bold">{number}.</span>
             </div>
-            <div className="pt-6 px-6 pb-6">
-              <DialogTitle className="text-2xl font-bold mb-4 mt-14">{title}</DialogTitle>
-              <p className="text-gray-700">{description}</p>
+            <div className=" mt-4 px-6 pb-6">
+              <DialogTitle className="text-2xl font-bold mb-4  font-MinionItalic text-[#74131f]">{title}</DialogTitle>
+              <p className="text-gray-700 font-MinionPro">{description}</p>
             </div>
           </div>
         </DialogContent>

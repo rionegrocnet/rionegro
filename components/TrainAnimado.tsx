@@ -153,7 +153,7 @@ const HztalScroll: React.FC = () => {
   return (
 
     
-      <div className=" fixed z-50  overflow-visible">
+      <div className=" fixed   overflow-visible">
         <svg
           className="w-full h-auto"
           xmlns="http://www.w3.org/2000/svg"
