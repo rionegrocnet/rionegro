@@ -47,7 +47,6 @@ const Hder: React.FC = () => {
 
   const toggleMute = () => {
     setIsMuted(!isMuted)
-    setIsVolumeControlVisible(false) // Ensure volume control is hidden when toggling mute
   }
 
   const increaseVolume = () => {
@@ -87,15 +86,14 @@ const Hder: React.FC = () => {
           </Link>
           <div className="relative" ref={volumeControlRef}>
             <button
-              onClick={toggleMute} // Directly toggle mute on desktop
+              onClick={toggleVolumeControl}
               className="w-10 h-10 rounded-full bg-white bg-opacity-20 flex items-center justify-center text-white hover:bg-opacity-30 transition-colors duration-300"
               aria-label={isMuted ? "Unmute" : "Mute"}
             >
               {isMuted || volume === 0 ? <VolumeX size={20} /> : <Volume2 size={20} />}
             </button>
-            {/* Hide volume control on desktop */}
             {isVolumeControlVisible && (
-              <div className="hidden absolute right-0 mt-2 p-4 bg-white rounded-lg shadow-lg flex flex-col items-center space-y-2">
+              <div className="absolute right-0 mt-2 p-4 bg-white rounded-lg shadow-lg flex flex-col items-center space-y-2">
                 <div className="flex items-center space-x-2">
                   <button
                     onClick={decreaseVolume}

@@ -203,7 +203,7 @@ export default function SmoothHorizontalScrollPanorama() {
 
       {isScrollActive && (
         <>
-          <div className="fixed top-0 left-0  w-full pointer-events-auto">
+          <div className="fixed top-0 left-0 w-full pointer-events-auto ">
             <Hder />
           </div>
           <div className="fixed bottom-0 left-0 w-full h-full pointer-events-none z-0">
@@ -217,7 +217,7 @@ export default function SmoothHorizontalScrollPanorama() {
       {isScrollActive && (
         <>
           {isMobile && <MobilePopupAccordion />}
-          <div className="fixed top-0 left-0 w-full h-full pointer-events-none  flex flex-col items-center md:flex hidden">
+          <div className="fixed top-0 left-0 w-full h-full pointer-events-none z-30 flex flex-col items-center md:flex hidden">
             {popupData.map((popup, index) => (
               <PopupWindow
                 key={index}
